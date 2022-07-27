@@ -7,12 +7,12 @@
     <!----------  GOOGLE FONTS ---------->
     <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;500;600;700&family=Chivo&family=Montserrat:ital,wght@0,100;0,200;0,600;0,700;1,500&display=swap" rel="stylesheet">
     <!----------  LINK CSS ---------->
-    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="Css/style.css">
     <title>Inicio</title>
     <!----------  FONTAWESOME ---------->
     <script src="https://kit.fontawesome.com/c4dbdfd217.js" crossorigin="anonymous"></script>   
     <!----------  FAV ICON ---------->
-    <link rel="shortcut icon" href="../imagenes/fav icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="imagenes/fav icon.png" type="image/x-icon" />
     <!----------  ANIMATE CSS ---------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -35,7 +35,7 @@
             <!----------  MENU NAVEGACION ---------->
             <nav class="nav">  
                 <ul class="nav__bar">
-                <li class="nav_item"><a class="nav__link" href="../index.html">Inicio</a></li>
+                <li class="nav_item"><a class="nav__link" href="index.html">Inicio</a></li>
                 <li class="nav_item"><a class="nav__link" href="videos.html">Videos</a></li>
                 <li class="nav_item"><a class="nav__link" href="planes.html">Planes</a></li>
                 <li class="nav_item"><a class="nav__link" href="recetas.html">Recetas</a></li>
@@ -49,60 +49,57 @@
     MAIN 
 ------------->
     <main>
-        
-        <section id="plan-section">
-            <div class="plan-container">
 
-                <!---------- TITULO ---------->
-                <div class="plan-title">  
-                    <h1>¡elegi el plan que mejor se adapte a tus necesidades!</h1>
-                </div> 
-            
+        <section id="contact-section">
+            <div class="container-form">
 
-                <!---------- PLANES ---------->
-            
-                <div class="plan-cards">
-                        
-                    <div class="card">
-                        <h2 class="card-tittle"> mensual</h2>
-                        <span class="importe">$ 1999</span>
-                        <ul class="card-description">
-                            <li>plan de entrenamiento</li>
-                            <li>workshop de nutricion</li>
-                            <br/>
-                        </ul>
-                        <button class="suscription-button"><a class="suscription-link" href="">suscribirme</a></button>
-                    </div>   
-                
-                    <div class="card">
-                        <h2 class="card-tittle"> 6 meses</h2>
-                        <span class="importe">$ 10199</span>
-                        <ul class="card-description">
-                            <li>plan de entrenamiento</li>
-                            <li>workshop de nutricion</li>
-                            <li>ahorra un 15%</li>
-                        </ul>
-                        <button class="suscription-button"><a class="suscription-link" href="">suscribirme</a></button>
-                    </div>   
-                
-                    <div class="card">
-                        <h2 class="card-tittle"> anual</h2>
-                        <span class="importe">$ 20389</span>
-                        <ul class="card-description">
-                            <li>plan de entrenamiento</li>
-                            <li>workshop de nutricion</li>
-                            <li>ahorra un 20%</li>
-                        </ul>
-                        <button class="suscription-button"><a class="suscription-link" href="">suscribirme</a></button>
-
-                    </div>
-
+                 <!---------- TITULO ---------->
+                <div>
+                    <h1 class="form-text-tittle">¡contactanos!</h1>
                 </div>
+
+                <!----------  FORMULARIO ---------->
             
-            </div> 
+                <form action="">
+
+                    <fieldset class="form">
+                        
+                        <div class="form-container">
+
+                            <div class="field">
+                                <label for="Nombre">Nombre:</label>
+                                <input class="text-field" type="text" name="nombre">
+                            </div>
+
+                            <div class="field">
+                                <label for="E-mail">E-mail:</label>
+                                <input class="text-field" type="text" name="E-mail">
+                            </div>
+
+                            <div class="field">
+                                <label for="Asunto">Asunto:</label>
+                                <input class="text-field" type="text" name="asunto">
+                            </div>
+
+                            <div class="field">
+                                <label for="mensaje">Mensaje:</label>
+                                <textarea class="mensaje-text-field" name="mensaje" id="mensaje"></textarea>
+                            </div>
+
+                            <div>
+                                <input class= "submit" type="submit" value="Enviar"/>
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+
+                </form>
+                   
+            </div>
         </section>
-    
-    </main>
+
+     </main>
 <!-----------  
     FOOTER 
 ------------->
@@ -129,6 +126,6 @@
         
         </div>
     </footer>
-    <script src="../js/JS main.js"></script>
+    <script src="js/JS main.js"></script>
 </body>
 </html>

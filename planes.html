@@ -7,12 +7,12 @@
     <!----------  GOOGLE FONTS ---------->
     <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;500;600;700&family=Chivo&family=Montserrat:ital,wght@0,100;0,200;0,600;0,700;1,500&display=swap" rel="stylesheet">
     <!----------  LINK CSS ---------->
-    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="Css/style.css">
     <title>Inicio</title>
     <!----------  FONTAWESOME ---------->
     <script src="https://kit.fontawesome.com/c4dbdfd217.js" crossorigin="anonymous"></script>   
     <!----------  FAV ICON ---------->
-    <link rel="shortcut icon" href="../imagenes/fav icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="imagenes/fav icon.png" type="image/x-icon" />
     <!----------  ANIMATE CSS ---------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -49,46 +49,59 @@
     MAIN 
 ------------->
     <main>
-    
-        <section id="primary-section">
+        
+        <section id="plan-section">
+            <div class="plan-container">
 
-            <div class="video-container">
-                
                 <!---------- TITULO ---------->
-                <div>  
-                    <h1 class="video-title">¡conoce nuestra manera de entrenar y divertirnos!</h1>
+                <div class="plan-title">  
+                    <h1>¡elegi el plan que mejor se adapte a tus necesidades!</h1>
+                </div> 
+            
+
+                <!---------- PLANES ---------->
+            
+                <div class="plan-cards">
+                        
+                    <div class="card">
+                        <h2 class="card-tittle"> mensual</h2>
+                        <span class="importe">$ 1999</span>
+                        <ul class="card-description">
+                            <li>plan de entrenamiento</li>
+                            <li>workshop de nutricion</li>
+                            <br/>
+                        </ul>
+                        <button class="suscription-button"><a class="suscription-link" href="">suscribirme</a></button>
+                    </div>   
+                
+                    <div class="card">
+                        <h2 class="card-tittle"> 6 meses</h2>
+                        <span class="importe">$ 10199</span>
+                        <ul class="card-description">
+                            <li>plan de entrenamiento</li>
+                            <li>workshop de nutricion</li>
+                            <li>ahorra un 15%</li>
+                        </ul>
+                        <button class="suscription-button"><a class="suscription-link" href="">suscribirme</a></button>
+                    </div>   
+                
+                    <div class="card">
+                        <h2 class="card-tittle"> anual</h2>
+                        <span class="importe">$ 20389</span>
+                        <ul class="card-description">
+                            <li>plan de entrenamiento</li>
+                            <li>workshop de nutricion</li>
+                            <li>ahorra un 20%</li>
+                        </ul>
+                        <button class="suscription-button"><a class="suscription-link" href="">suscribirme</a></button>
+
+                    </div>
+
                 </div>
             
-                <!---------- VIDEO 1 ---------->
-                <div class="video-iframe">
-                    <iframe
-                        width="100%"
-                        height="100%"
-                        src="https://www.youtube.com/embed/fhcK5VBsTL8" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe> 
-                </div>
-                
-                <!---------- VIDEO 2 ---------->
-                <div class="video-iframe">
-                    <iframe 
-                        width="100%"
-                        height="100%"
-                        src="https://www.youtube.com/embed/dlWVQ24Moz4" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>   
-                </div>
-                
-            </div>
-
-        </section>       
-  
+            </div> 
+        </section>
+    
     </main>
 <!-----------  
     FOOTER 
@@ -116,6 +129,6 @@
         
         </div>
     </footer>
-    <script src="../js/JS main.js"></script>
+    <script src="js/JS main.js"></script>
 </body>
 </html>

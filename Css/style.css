@@ -778,6 +778,12 @@ color: deeppink;
     border-radius: 5px;
     height: 30px;
     width: 100%;
+    transition: all 1s;
+}
+
+.text-field:hover{
+    transform: scale(1.04);
+    border: 3px solid deeppink;
 }
 
 .mensaje-text-field {
@@ -785,6 +791,12 @@ color: deeppink;
     border-radius: 5px;
     height: 140px;
     width: 100%;
+    transition: all 1s;
+}
+
+.mensaje-text-field:hover{
+    transform: scale(1.04);
+    border: 3px solid deeppink;
 }
 
 .submit {
@@ -797,7 +809,14 @@ color: deeppink;
     padding: 8px;
     width: 70%;
     margin: 1rem auto;
+    transition: all 1s;
 }
+
+.submit:hover {
+font-size: 1.2rem;
+color: deeppink;
+}
+
 
 /* ==================
    MEDIA QUERIES

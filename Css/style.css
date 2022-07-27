@@ -502,6 +502,7 @@ body {
     padding-top: 5rem;
 }
 
+
 .card {
     display:flex;
     flex-direction: column;
@@ -513,6 +514,12 @@ body {
     list-style-position: inside;
     background-color: lightpink;
     padding: 2rem 0 2rem 0;  
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.card:hover{
+    transform: scale(1.10);
 }
 
 .card-tittle {
@@ -538,13 +545,22 @@ body {
     padding: 1rem 2rem 1rem 2rem;
 }
 
+
 .suscription-link {
     color: lightpink;
     font-size: 1.2rem;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
+    transition: all 1s ease;
 }
+
+.suscription-link:hover {
+font-size: 1.4rem;
+color: deeppink;
+}
+
 
 /* ==================
    MEDIA QUERIES

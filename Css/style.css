@@ -139,7 +139,13 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    text-transform: uppercase;  
+    text-transform: uppercase; 
+    cursor: pointer;    
+    transition: all 1s ease;
+}
+
+.button-link:hover {
+color: deeppink;
 }
 
 .primary-img {
